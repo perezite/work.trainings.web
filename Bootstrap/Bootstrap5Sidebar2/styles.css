@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: #009d63;
   --main-text-color: #009d63;
+  --main-text-hover-color: #009d63d2;
   --second-text-color: #bbbec5;
   --second-bg-color: #c1efde;
 }
@@ -69,16 +70,20 @@
 }
 
 .list-group-item {
+  background-color: transparent;
   border: none;
   margin: .6rem 1.4rem;
   padding: 0;
 }
 
-.list-group-item.active {
-  background-color: transparent;
+.list-group-item.my-active {
   color: var(--main-text-color);
   font-weight: bold;
-  border: none;
+} 
+
+.list-group-item:hover {
+  color: var(--main-text-hover-color);
+  text-shadow: var(--main-text-hover-color) 0 0 27px;
 }
 
 @media (min-width: 768px) {

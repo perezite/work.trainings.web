@@ -17,8 +17,8 @@
         <div class="bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
                 <i class="fas fa-user-secret fa-fw me-2"></i>Codersbite</div>
-            <div class="list-group my-2">
-                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold active"><i
+            <div class="list-group mt-3">
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold my-active"><i
                     class="fas fa-tachometer-alt fa-fw me-2"></i>Dashboard</a>
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-project-diagram fa-fw me-2"></i>Projects</a>
@@ -216,6 +216,11 @@
     <script>
         $("#menu-toggle").on("click", function() {
             $("#wrapper").toggleClass("toggled");
+        });
+
+        $("#sidebar-wrapper .list-group-item").on("click", function() {
+            $("#sidebar-wrapper .list-group-item").removeClass("my-active");
+            $(this).addClass('my-active');
         });
     </script>
 </body>
