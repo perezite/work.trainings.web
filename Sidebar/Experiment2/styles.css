@@ -1,0 +1,19 @@
+.sidebar {
+    background-color: lightgreen;
+    height: 100vh;
+    flex-basis: 12rem;
+} 
+
+.bla {
+    flex-grow: 1;
+}
+
+.toolbar {
+    background-color: lightblue;
+    flex-basis: 2.5rem;
+}
+
+.main-content {
+    background-color: lightcoral;
+    flex-grow: 1;
+}
