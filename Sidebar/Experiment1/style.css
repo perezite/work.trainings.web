@@ -16,7 +16,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 1rem;
+    width: 0.4rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -165,6 +165,10 @@ main {
     .navbar:hover .link-text {
         display: inline;
         transition: opacity var(--transition-speed);
+    }
+
+    .navbar:hover .logo svg {
+        margin-left: 11rem;
     }
 
     .navbar:hover .logo-text {
