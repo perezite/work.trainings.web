@@ -36,12 +36,15 @@
 }
 
 .side-nav-toggle {
-    font-size: .5rem;
-    
+    font-size: .5rem;   
+    background-color: blueviolet;
+}
+
+.user-options {
+    margin-left: auto
 }
 
 .main-content {
     flex-grow: 1;
-    background-color: lightgoldenrodyellow;
-    text-align: right;      
+    background-color: lightgoldenrodyellow;     
 }
