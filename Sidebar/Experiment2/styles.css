@@ -1,19 +1,23 @@
-.sidebar {
-    background-color: lightgreen;
-    height: 100vh;
-    flex-basis: 12rem;
-} 
-
-.bla {
-    flex-grow: 1;
+.my-container {
+    display: flex;
 }
 
-.toolbar {
+.one {
     background-color: lightblue;
-    flex-basis: 2.5rem;
+    /* flex-grow: 1; */
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    left: 3rem;
+    top: 2rem;
 }
 
-.main-content {
+.two {
     background-color: lightcoral;
-    flex-grow: 1;
+    flex-grow: 1;;
+}
+
+.three {
+    background-color: lightcyan;
+    flex-grow: 1
 }

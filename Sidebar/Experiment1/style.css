@@ -59,7 +59,7 @@ main {
 .nav-link {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 4rem;
     color: var(--text-primary);
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7);
@@ -138,7 +138,6 @@ main {
 
     .navbar-nav {
         flex-direction: row;
-        ;
     }
 
     .nav-link {
@@ -168,7 +167,7 @@ main {
     }
 
     .navbar:hover .logo svg {
-        margin-left: 11rem;
+        margin-left: 12rem;
     }
 
     .navbar:hover .logo-text {
