@@ -1,0 +1,106 @@
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-nav {
+    width: 0;
+    background-color: lightgreen;
+    height: 100vh;
+    transition: all 400ms;
+}
+
+.side-nav.toggled {
+    display: block;
+    position: fixed;
+    width: 11rem;
+}
+
+.side-nav-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.brand-symbol {
+    width: 3rem;
+    min-width: 3rem;
+    height: 3rem;
+    background-color: blueviolet;
+}
+
+.side-nav-close-toggle {
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-symbol {
+    width: 3rem;
+    min-width: 3rem;
+    height: 3rem;
+    background-color: blue;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.tool-bar {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background-color: lightcoral;     
+}
+
+.side-nav-toggle {  
+    background-color: blueviolet;
+}
+
+.user-options {
+    margin-left: auto
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: lightgoldenrodyellow;     
+}
+
+/* larger than mobile screens */
+@media screen and (min-width: 576px) {
+    .side-nav {
+        display: block;
+        position: static;
+        width: 3rem;
+    }
+    
+    .side-nav.toggled {
+        display: block;
+        position: static;
+        width: 11rem;
+    }
+
+    .side-nav:not(.toggled):hover {
+        position: fixed;
+        width: 11rem;
+    }
+
+    .side-nav-close-toggle {
+        display: none;
+    }
+}
