@@ -1,0 +1,25 @@
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-nav {
+    background-color: lightgreen;
+    width: 8rem;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-bar {
+    height: 2rem;
+    background-color: lightcoral;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: lightgoldenrodyellow;
+}
