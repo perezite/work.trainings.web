@@ -17,8 +17,14 @@
 
 .side-nav-header {
     display: flex;
+    align-items: center;
     flex-direction: row;
-    margin-bottom: .5rem;
+}
+
+.brand-symbol {
+    width: 3rem;
+    height: 3rem;
+    background-color: blueviolet;
 }
 
 .side-nav-close-toggle {
@@ -31,6 +37,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-top: .5rem;
 }
 
 .nav-item {
@@ -58,7 +65,7 @@
 .tool-bar {
     display: flex;
     align-items: center;
-    height: 2rem;
+    height: 3rem;
     background-color: lightcoral;     
 }
 
@@ -94,6 +101,10 @@
     }
 
     .side-nav.toggled .nav-link {
+        display: none;
+    }
+
+    .side-nav.toggled .brand-title {
         display: none;
     }
 
