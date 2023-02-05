@@ -5,14 +5,13 @@
 
 .side-nav {
     display: none;
-    position: fixed;
     background-color: lightgreen;
+    width: 11rem;
     height: 100vh;
 }
 
 .side-nav.toggled {
     display: block;
-    width: 11rem;
 }
 
 .side-nav-header {
@@ -57,4 +56,17 @@
 .main-content {
     flex-grow: 1;
     background-color: lightgoldenrodyellow;     
+}
+
+/* non-mobile screens */
+@media screen and (min-width: 576px) {
+    .side-nav {
+        display: block;
+        position: static;
+        width: 11rem;
+    }
+    
+    .side-nav.toggled {
+        width: 4rem;
+    }   
 }
