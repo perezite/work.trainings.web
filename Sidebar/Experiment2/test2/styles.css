@@ -10,9 +10,27 @@
 }
 
 .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-symbol {
+    width: 2rem;
+    height: 2rem;
+    background-color: lightgoldenrodyellow;
+}
+
+.nav-link {
+    margin-left: 1rem;
 }
 
 .content {
