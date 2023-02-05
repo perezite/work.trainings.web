@@ -6,12 +6,13 @@
 .side-nav {
     display: none;
     background-color: lightgreen;
-    width: 11rem;
     height: 100vh;
 }
 
 .side-nav.toggled {
     display: block;
+    position: fixed;
+    width: 60vw;
 }
 
 .side-nav-header {
@@ -22,7 +23,6 @@
 
 .side-nav-close-toggle {
     margin-left: auto;
-    margin-right: .5rem;
 }
 
 .nav-list {
@@ -45,7 +45,7 @@
     background-color: lightcoral;     
 }
 
-.side-nav-open-toggle {  
+.side-nav-toggle {  
     background-color: blueviolet;
 }
 
@@ -58,7 +58,7 @@
     background-color: lightgoldenrodyellow;     
 }
 
-/* non-mobile screens */
+/* larger than mobile screens */
 @media screen and (min-width: 576px) {
     .side-nav {
         display: block;
@@ -66,7 +66,17 @@
         width: 11rem;
     }
     
+    .side-nav.toggled:hover {
+        position: fixed;
+        width: 11rem;
+    }
+
     .side-nav.toggled {
+        position: static;
         width: 4rem;
-    }   
+    }
+
+    .side-nav-close-toggle {
+        display: none;
+    }
 }

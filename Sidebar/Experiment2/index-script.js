@@ -1,16 +1,19 @@
+const sideNavToggle = document.querySelector('.side-nav-toggle');
 const sideNavCloseToggle = document.querySelector('.side-nav-close-toggle');
-const sideNavOpenToggle = document.querySelector('.side-nav-open-toggle');
 const sideNav = document.querySelector('.side-nav');
 const mainContent = document.querySelector('.main-content');
 
-sideNavOpenToggle.addEventListener('click', () => {
-    sideNav.classList.add('toggled')
-});
-
-mainContent.addEventListener('click', () => {
-    sideNav.classList.remove('toggled');
+sideNavToggle.addEventListener('click', () => {
+    sideNav.classList.toggle('toggled')
 });
 
 sideNavCloseToggle.addEventListener('click', () => {
     sideNav.classList.remove('toggled');
-})
+});
+
+mainContent.addEventListener('click', () => {
+    const isMobile = window.matchMedia("(max-width: 576px)").matches;
+    
+    if (isMobile) 
+    sideNav.classList.remove('toggled');
+});
