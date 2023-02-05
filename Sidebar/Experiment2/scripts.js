@@ -15,5 +15,5 @@ mainContent.addEventListener('click', () => {
     const isMobile = window.matchMedia("(max-width: 576px)").matches;
     
     if (isMobile) 
-    sideNav.classList.remove('toggled');
+        sideNav.classList.remove('toggled');
 });
