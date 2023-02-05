@@ -10,6 +10,12 @@
     height: 100vh;
 }
 
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
