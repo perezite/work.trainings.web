@@ -4,10 +4,19 @@
 }
 
 .nav-bar {
-    width: 12rem;
+    width: 2rem;
     height: 100vh;
     background-color: lightblue;
+    /* transition: all 200ms; */
 }
+
+.nav-bar:hover {
+    width: 12rem;
+}
+
+.nav-bar:hover .nav-link {
+    display: block;
+} 
 
 .nav-list {
     display: flex;
@@ -31,6 +40,7 @@
 
 .nav-link {
     margin-left: 1rem;
+    display: none;
 }
 
 .content {
