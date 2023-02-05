@@ -1,18 +1,15 @@
-.my-container {
+.test {
     display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.one {
+.test-1 {
+    flex-grow: 1;
     background-color: lightblue;
-    flex-grow: 1;  
 }
 
-.two {
+.test-2 {
+    flex-grow: 1;
     background-color: lightcoral;
-    flex-grow: 1;;
-}
-
-.three {
-    background-color: lightcyan;
-    flex-grow: 1
 }

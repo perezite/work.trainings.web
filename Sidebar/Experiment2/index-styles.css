@@ -16,17 +16,21 @@
     margin: 0;
 }
 
-.main-content {
+.main {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
+    height: 100vh;
 }
 
 .tool-bar {
     height: 2rem;
     background-color: lightcoral;
+    text-align: right;      /* temp */
 }
 
 .main-content {
-    flex-grow: 1;
+    flex-grow: 3;
     background-color: lightgoldenrodyellow;
+    text-align: right;      /* temp */
 }
