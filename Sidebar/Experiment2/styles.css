@@ -1,12 +1,17 @@
+:root {
+    font-size: 16px;
+}
+
 .page {
     display: flex;
     flex-direction: row;
 }
 
 .side-nav {
-    display: none;
+    width: 0;
     background-color: lightgreen;
     height: 100vh;
+    transition: all 400ms;
 }
 
 .side-nav.toggled {
@@ -35,6 +40,7 @@
     display: flex;
     flex-direction: column;
     list-style: none;
+    white-space: nowrap;
     padding: 0;
     margin: 0;
 }
