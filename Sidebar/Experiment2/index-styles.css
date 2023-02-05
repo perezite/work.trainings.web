@@ -4,8 +4,9 @@
 }
 
 .side-nav {
+    position: fixed;
     background-color: lightgreen;
-    width: 8rem;
+    width: 11rem;
     height: 100vh;
 }
 
