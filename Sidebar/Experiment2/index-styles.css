@@ -15,6 +15,17 @@
     width: 11rem;
 }
 
+.side-nav-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .5rem;
+}
+
+.side-nav-close-toggle {
+    margin-left: auto;
+    margin-right: .5rem;
+}
+
 .nav-list {
     list-style: none;
     padding: 0;
@@ -35,7 +46,7 @@
     background-color: lightcoral;     
 }
 
-.side-nav-toggle {
+.side-nav-open-toggle {
     font-size: .5rem;   
     background-color: blueviolet;
 }
