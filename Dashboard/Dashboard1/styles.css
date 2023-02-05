@@ -5,15 +5,16 @@
 
 .side-nav {
     width: 0;
-    background-color: lightgreen;
     height: 100vh;
     transition: all 400ms;
+    white-space: nowrap;
+    background-color: white;
 }
 
 .side-nav.toggled {
     display: block;
     position: fixed;
-    width: 11rem;
+    width: 16rem;
 }
 
 .side-nav-header {
@@ -23,10 +24,18 @@
 }
 
 .brand-symbol {
-    width: 3rem;
-    min-width: 3rem;
-    height: 3rem;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    min-width: 4rem;
+    height: 4rem;
+    font-size: 2.4rem;
+}
+
+.brand-title {
+    /* font-weight: bold; */
+    letter-spacing: 0.1ch;
 }
 
 .side-nav-close-toggle {
@@ -37,7 +46,6 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    white-space: nowrap;
     padding: 0;
     margin: 0;
 }
@@ -48,9 +56,9 @@
 }
 
 .nav-symbol {
-    width: 3rem;
-    min-width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    min-width: 4rem;
+    height: 4rem;
     background-color: blue;
 }
 
@@ -64,7 +72,7 @@
 .tool-bar {
     display: flex;
     align-items: center;
-    height: 3rem;
+    height: 4rem;
     background-color: lightcoral;     
 }
 
@@ -86,18 +94,18 @@
     .side-nav {
         display: block;
         position: static;
-        width: 3rem;
+        width: 4rem;
     }
     
     .side-nav.toggled {
         display: block;
         position: static;
-        width: 11rem;
+        width: 16rem;
     }
 
     .side-nav:not(.toggled):hover {
         position: fixed;
-        width: 11rem;
+        width: 16rem;
     }
 
     .side-nav-close-toggle {
