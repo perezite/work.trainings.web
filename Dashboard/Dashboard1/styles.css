@@ -22,6 +22,12 @@ body {
     width: 16rem;
 }
 
+/* hack: setting this property by default on brand symbol 
+   causes bad rendering on mobile */
+.side-nav.toggled .brand-symbol {
+    transform: rotate(-10deg);
+}
+
 .side-nav-header {
     display: flex;
     align-items: center;
@@ -111,6 +117,10 @@ body {
         display: block;
         position: static;
         width: 16rem;
+    }
+
+    .brand-symbol {
+        transform: rotate(-10deg);
     }
 
     .side-nav:not(.toggled):hover {
