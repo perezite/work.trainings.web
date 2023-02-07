@@ -9,7 +9,8 @@ body {
 }
 
 .side-nav {
-    width: 0;
+    position: fixed;
+    left: -16rem;
     height: 100vh;
     transition: all 400ms;
     white-space: nowrap;
@@ -19,13 +20,8 @@ body {
 .side-nav.toggled {
     display: block;
     position: fixed;
+    left: 0px;
     width: 16rem;
-}
-
-/* hack: setting this property by default on brand symbol 
-   causes bad rendering on mobile */
-.side-nav.toggled .brand-symbol {
-    transform: rotate(-10deg);
 }
 
 .side-nav-header {
@@ -42,6 +38,7 @@ body {
     min-width: 4rem;
     height: 4rem;
     font-size: 2.4rem;
+    transform: rotate(-10deg);
     background-image: linear-gradient(90deg, rgb(23, 23, 171) 35%, rgba(0,212,255,1) 100%); 
     background-clip: text;
     -webkit-background-clip: text;
@@ -110,6 +107,7 @@ body {
     .side-nav {
         display: block;
         position: static;
+        left: 0;
         width: 4rem;
     }
     
