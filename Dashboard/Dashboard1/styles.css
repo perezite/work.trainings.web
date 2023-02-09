@@ -9,6 +9,7 @@ body {
 }
 
 .side-nav {
+    z-index: 2;
     position: fixed;
     left: -16rem;
     height: 100vh;
@@ -46,6 +47,7 @@ body {
 }
 
 .brand-title {
+    left: -999px;
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
@@ -80,10 +82,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    top: 4rem;
 }
 
 .tool-bar {
     display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
     align-items: center;
     height: 4rem;
     background-color: lightcoral;     
@@ -98,35 +105,44 @@ body {
 }
 
 .main-content {
+    position: relative;
     flex-grow: 1;
+    padding-top: 4rem;
     background-color: lightgoldenrodyellow;     
 }
 
 /* larger than mobile screens */
 @media screen and (min-width: 576px) {
     .side-nav {
-        display: block;
-        position: static;
         left: 0;
         width: 4rem;
     }
     
     .side-nav.toggled {
-        display: block;
-        position: static;
         width: 16rem;
+    }
+
+    .side-nav:not(.toggled):hover {
+        width: 16rem;
+    }
+
+    .collapsible {
+        display: none;
+    }
+
+    .side-nav:not(.toggled):hover .collapsible, .side-nav.toggled .collapsible  {
+        display: block;
     }
 
     .brand-symbol {
         transform: rotate(-10deg);
     }
 
-    .side-nav:not(.toggled):hover {
-        position: fixed;
-        width: 16rem;
+    .tool-bar {
+        padding-left: 4rem;
     }
 
-    .side-nav-close-toggle {
-        display: none;
+    .main-content {
+        padding-left: 4rem;
     }
 }

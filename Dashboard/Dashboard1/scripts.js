@@ -9,6 +9,7 @@ sideNavToggle.addEventListener('click', () => {
 
 sideNavCloseToggle.addEventListener('click', () => {
     sideNav.classList.remove('toggled');
+    console.log('untoggle');
 });
 
 mainContent.addEventListener('click', () => {
