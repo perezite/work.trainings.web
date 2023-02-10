@@ -104,10 +104,6 @@ body {
     margin-left: auto
 }
 
-.main {
-    padding-left: 4rem;
-}
-
 .main-content {
     position: relative;
     padding-top: 4rem;
@@ -117,6 +113,10 @@ body {
 
 /* larger than mobile screens */
 @media screen and (min-width: 576px) {
+    .main {
+        padding-left: 4rem;
+    }
+
     .side-nav {
         left: 0;
         width: 4rem;
@@ -134,14 +134,6 @@ body {
         display: none; 
     }
 
-    /* .collapsible {
-        display: none;
-    }
-
-    .side-nav:not(.toggled):hover .collapsible, .side-nav.toggled .collapsible  {
-        display: block;
-    } */
-
     body:not(.navbar-expanded) .navbar-expandable {
         display: none;
     }
@@ -150,9 +142,9 @@ body {
         display: block;
     }
 
-    /* body.navbar-expanded .navbar-expandable {
-
-    } */
+    body.navbar-expanded .main, body.navbar-expanded .tool-bar {
+        padding-left: 16rem;
+    }
 
     .brand-symbol {
         transform: rotate(-10deg);

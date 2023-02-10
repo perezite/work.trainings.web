@@ -11,7 +11,6 @@ sideNavToggle.addEventListener('click', () => {
 sideNavCloseToggle.addEventListener('click', () => {
     sideNav.classList.remove('toggled');
     document.body.classList.remove('navbar-expanded');
-    console.log('untoggle');
 });
 
 mainContent.addEventListener('click', () => {
