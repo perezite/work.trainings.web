@@ -1,11 +1,9 @@
 :root {
-    --sidebar-width-collapsed: 70px;
+    --navbar-height: 4rem;
 }
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: var(--sidebar-width-collapsed);
+.navbar {
+    width: 100%;
+    height: var(--navbar-height);
     background-color: lightblue;
 }
