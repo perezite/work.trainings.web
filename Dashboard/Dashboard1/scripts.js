@@ -5,7 +5,7 @@ const mainContent = document.querySelector('.main-content');
 
 sideNavToggle.addEventListener('click', () => {
     sideNav.classList.toggle('toggled')
-    document.body.classList.add('navbar-expanded');
+    document.body.classList.toggle('navbar-expanded');
 });
 
 sideNavCloseToggle.addEventListener('click', () => {
