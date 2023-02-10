@@ -1,9 +1,0 @@
-:root {
-    --navbar-height: 4rem;
-}
-
-.navbar {
-    width: 100%;
-    height: var(--navbar-height);
-    background-color: lightblue;
-}
