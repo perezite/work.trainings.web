@@ -1,0 +1,11 @@
+:root {
+    --sidebar-width-collapsed: 70px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: var(--sidebar-width-collapsed);
+    background-color: lightblue;
+}
