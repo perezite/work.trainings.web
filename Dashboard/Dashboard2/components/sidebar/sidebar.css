@@ -1,5 +1,6 @@
 :root {
     --sidebar-width: 4rem;
+    --sidebar-width-expanded: 16rem;
     --sidebar-logo-height: 4rem;
     --border: 1px solid rgba(0, 0, 0, 0.06);
     --sidebar-brand-horizontal-margin: 10px;
@@ -10,21 +11,30 @@
 
 .sidebar {
     position: fixed;
+    width: 16rem;      
     width: var(--sidebar-width);
-    width: 16rem;           /*todo: remove*/
     height: 100vh;
     border-right: var(--border);
     overflow-x: hidden;
+    transition: all 200ms ease;
+}
+
+.sidebar:hover {
+    width: var(--sidebar-width-expanded);
 }
 
 .sidebar-brand-container {
     border-bottom: var(--border);
 }
 
+.sidebar:hover .sidebar-brand {
+    margin-left: 1.5rem; 
+}
+
 .sidebar-brand {
     display: flex;
     align-items: center;
-    height: 4rem;
+    height: rem;
 }
 
 .sidebar-logo-container {
@@ -52,7 +62,8 @@
 
 .sidebar-closer {
     margin-left: auto;
-    color: gray;
+    margin-right: 1rem;
+    color: #D1BFD1;
 }
 
 .sidebar-menu {
@@ -88,9 +99,9 @@
 }
 
 .sidebar-blue {
-    color: #2196f3;
+    color: #8306FA;
 }
 
 .sidebar-brown {
-    color: #795548;
+    color: #0C7BA6;
 }
