@@ -27,6 +27,9 @@
     margin-left: auto;
 }
 
+.menu-toggle {
+    padding-top: .37rem;
+}
 
 .dropdown-menu {
     font-size: .9rem;
