@@ -3,7 +3,8 @@
     --sidebar-logo-height: 4rem;
     --border: 1px solid rgba(0, 0, 0, 0.06);
     --sidebar-brand-font:'Roboto', sans-serif;
-    --sidebar-brand-font-size: 1.8rem; 
+    --sidebar-brand-font-size: 1.8rem;
+    --sidebar-brand-letter-spacing: .15rem; 
 }
 
 .sidebar {
@@ -25,7 +26,7 @@
     align-items: center;
     height: 4rem;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: .75rem;
 }
 
 .sidebar-logo {
@@ -35,9 +36,19 @@
 
 .sidebar-brand-text {
     margin: 0;
+    margin-top: 2px;
     margin-left: 1rem;
     font-family: var(--sidebar-brand-font);
     font-size: var(--sidebar-brand-font-size);
+    letter-spacing: var(--sidebar-brand-letter-spacing);
+}
+
+.sidebar-closer {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    margin-left: auto;
+    transform: rotate(90deg);
 }
 
 .menu-toggle {
