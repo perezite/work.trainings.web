@@ -41,9 +41,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    min-width: 4rem;
-    height: 4rem;
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    height: var(--sidebar-width);
 }
 
 .sidebar-logo {
@@ -84,9 +84,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    min-width: 4rem;
-    height: 4rem;
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    height: var(--sidebar-width);
     /* background-color: lightblue; */
     font-size: 1.1rem;
 
