@@ -1,6 +1,6 @@
 :root {
     --navbar-height: 4rem;
-    --border-color: 1px solid rgba(0, 0, 0, 0.06)
+    --border: 1px solid rgba(0, 0, 0, 0.06)
 }
 
 .navbar {
@@ -9,7 +9,7 @@
     width: 100%;
     height: var(--navbar-height);
     /* background-color: lightblue; */
-    border-bottom: var(--border-color)
+    border-bottom: var(--border)
 }
 
 .navbar-left {
