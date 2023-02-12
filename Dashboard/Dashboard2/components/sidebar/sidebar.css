@@ -1,0 +1,48 @@
+:root {
+    --sidebar-width: 15rem;
+    --sidebar-logo-height: 4rem;
+    --border: 1px solid rgba(0, 0, 0, 0.06);
+    --sidebar-brand-font: 'Righteous', cursive;
+    --sidebar-brand-font-size: 2.3rem; 
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    width: var(--sidebar-width);
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.sidebar-brand-container {
+    margin: 0;
+    padding: 0;
+    border-bottom: var(--border);
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sidebar-logo {
+    height: 2.4rem;
+    transform: rotate(-10deg);
+}
+
+.sidebar-brand-text {
+    margin: 0;
+    margin-left: 1rem;
+    font-family: var(--sidebar-brand-font);
+    font-size: var(--sidebar-brand-font-size)
+
+}
+
+.menu-toggle {
+    position: fixed;
+    right: 2rem;
+    margin-top: 1rem
+}
