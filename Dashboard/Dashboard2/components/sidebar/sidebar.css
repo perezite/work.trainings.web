@@ -2,9 +2,10 @@
     --sidebar-width: 15rem;
     --sidebar-logo-height: 4rem;
     --border: 1px solid rgba(0, 0, 0, 0.06);
+    --sidebar-brand-horizontal-margin: 10px;
     --sidebar-brand-font: 'Nunito', sans-serif;
     --sidebar-brand-font-size: 1.8rem;
-    --sidebar-brand-letter-spacing: .15rem; 
+    --sidebar-brand-letter-spacing: .15rem;
 }
 
 .sidebar {
@@ -13,13 +14,12 @@
     width: var(--sidebar-width);
     height: 100vh;
     border-right: var(--border);
-    /* background-color: lightblue; */
 }
 
 .sidebar-brand-container {
-    margin: 0;
-    padding: 0;
     border-bottom: var(--border);
+    margin-left: var(--sidebar-brand-horizontal-margin);
+    margin-right: var(--sidebar-brand-horizontal-margin);
 }
 
 .sidebar-brand {
@@ -35,13 +35,14 @@
     transform: rotate(-11deg); 
 }
 
-.sidebar-brand-text {
+.sidebar-brand-text {   
     margin: 0;
     margin-left: 1rem;
+    margin-top: 2px;
     font-family: var(--sidebar-brand-font);
     font-size: var(--sidebar-brand-font-size);
     letter-spacing: var(--sidebar-brand-letter-spacing);
-    font-weight: 900;
+    font-weight: 900; 
 }
 
 .sidebar-closer {
