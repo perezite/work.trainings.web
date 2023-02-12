@@ -16,4 +16,5 @@
 .navbar-items {
     list-style: none;
     padding-left: 1rem;
+    margin: 0;
 }
