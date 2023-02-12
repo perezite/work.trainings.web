@@ -1,5 +1,6 @@
 :root {
-    --sidebar-width: 15rem;
+    --sidebar-width-expanded: 16rem;
+    /* --sidebar-width-expanded: 4rem; */
     --sidebar-logo-height: 4rem;
     --border: 1px solid rgba(0, 0, 0, 0.06);
     --sidebar-brand-horizontal-margin: 10px;
@@ -10,9 +11,10 @@
 
 .sidebar {
     position: fixed;
-    width: var(--sidebar-width);
+    width: var(--sidebar-width-expanded);
     height: 100vh;
     border-right: var(--border);
+    overflow-x: hidden;
 }
 
 .sidebar-brand-container {
@@ -74,7 +76,7 @@
 .menu-toggle {
     position: fixed;
     font-size: 20px;
-    right: 3rem;
+    left: 20rem;
     top: 2rem;
 }
 
