@@ -61,6 +61,7 @@
 }
 
 .sidebar-closer {
+    display: block;
     margin-left: auto;
     margin-right: 1rem;
     color: #D1BFD1;
@@ -94,8 +95,8 @@
 .sidebar-toggle {
     position: fixed;
     font-size: 20px;
-    left: 20rem;
-    top: 2rem;
+    left: 18rem;
+    top: 1.4rem;
 }
 
 .sidebar-purple {
@@ -104,4 +105,19 @@
 
 .sidebar-blue {
     color: #0C7BA6;
+}
+
+/* larger than mobile screens */
+@media screen and (min-width: 576px) {
+    .sidebar:hover {
+        width: var(--sidebar-width-expanded);
+    }
+    
+    .sidebar:hover .sidebar-brand {
+        margin-left: 1.5rem; 
+    }
+
+    .sidebar-closer {
+        display: none;
+    }
 }
