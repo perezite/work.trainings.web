@@ -2,8 +2,8 @@
     --sidebar-width: 15rem;
     --sidebar-logo-height: 4rem;
     --border: 1px solid rgba(0, 0, 0, 0.06);
-    --sidebar-brand-font: 'Righteous', cursive;
-    --sidebar-brand-font-size: 2.3rem; 
+    --sidebar-brand-font:'Roboto', sans-serif;
+    --sidebar-brand-font-size: 1.8rem; 
 }
 
 .sidebar {
@@ -37,8 +37,7 @@
     margin: 0;
     margin-left: 1rem;
     font-family: var(--sidebar-brand-font);
-    font-size: var(--sidebar-brand-font-size)
-
+    font-size: var(--sidebar-brand-font-size);
 }
 
 .menu-toggle {
