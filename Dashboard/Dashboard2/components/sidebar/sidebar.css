@@ -10,8 +10,8 @@
 
 .sidebar {
     position: fixed;
-    /* width: var(--sidebar-width); */
-    width: 16rem;
+    width: var(--sidebar-width);
+    width: 16rem;           /*todo: remove*/
     height: 100vh;
     border-right: var(--border);
     overflow-x: hidden;
@@ -80,7 +80,7 @@
 
 }
 
-.menu-toggle {
+.sidebar-toggle {
     position: fixed;
     font-size: 20px;
     left: 20rem;

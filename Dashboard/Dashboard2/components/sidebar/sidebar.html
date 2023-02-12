@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="sidebar.css"/>
     <title>Sidebar Demo</title>
 </head>
-<body class="sidebar-expanded">
+<body>
     <div class="sidebar">
          <div class="sidebar-brand-container">
             <div class="sidebar-brand">
@@ -19,7 +19,7 @@
                     <img class="sidebar-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png" alt="Logo">
                 </div>
                 <span class="sidebar-brand-text">Brand</span>
-                <a href="#" class="sidebar-closer">
+                <a href="#" class="sidebar-closer" onclick="">
                     <i class="fa-solid fa-circle-chevron-left"></i>
                 </a>
             </div>
@@ -37,8 +37,10 @@
             </li>
         </ul> 
 
-    <a href="#" class="menu-toggle link-dark">
+    <a href="#" class="sidebar-toggle link-dark">
         <i class="fa-solid fa-bars"></i>
     </a>
+
+    <script src="sidebar.js"></script>
 </body>
 </html>
