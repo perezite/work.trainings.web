@@ -5,7 +5,7 @@
     --sidebar-brand-horizontal-margin: 10px;
     --sidebar-brand-font: 'Nunito', sans-serif;
     --sidebar-brand-font-size: 1.8rem;
-    --sidebar-brand-letter-spacing: .15rem;
+    --sidebar-brand-letter-spacinig: .15rem;
 }
 
 .sidebar {
@@ -73,7 +73,8 @@
 
 .menu-toggle {
     position: fixed;
-    right: 2rem;
+    font-size: 20px;
+    right: 3rem;
     top: 2rem;
 }
 
