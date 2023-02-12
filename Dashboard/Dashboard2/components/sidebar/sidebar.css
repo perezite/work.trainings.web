@@ -2,7 +2,7 @@
     --sidebar-width: 15rem;
     --sidebar-logo-height: 4rem;
     --border: 1px solid rgba(0, 0, 0, 0.06);
-    --sidebar-brand-font:'Roboto', sans-serif;
+    --sidebar-brand-font: 'Nunito', sans-serif;
     --sidebar-brand-font-size: 1.8rem;
     --sidebar-brand-letter-spacing: .15rem; 
 }
@@ -12,7 +12,8 @@
     width: 250px;
     width: var(--sidebar-width);
     height: 100vh;
-    background-color: lightblue;
+    border-right: var(--border);
+    /* background-color: lightblue; */
 }
 
 .sidebar-brand-container {
@@ -30,29 +31,56 @@
 }
 
 .sidebar-logo {
-    height: 2.4rem;
-    transform: rotate(-10deg);
+    height: 1.95rem;
+    transform: rotate(-11deg); 
 }
 
 .sidebar-brand-text {
     margin: 0;
-    margin-top: 2px;
     margin-left: 1rem;
     font-family: var(--sidebar-brand-font);
     font-size: var(--sidebar-brand-font-size);
     letter-spacing: var(--sidebar-brand-letter-spacing);
+    font-weight: 900;
 }
 
 .sidebar-closer {
-    padding: 0;
-    margin: 0;
-    margin-top: 4px;
     margin-left: auto;
-    transform: rotate(90deg);
+    color: gray;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 1.5rem;
+    gap: .6rem;
+    padding: 0;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 1.25rem;
+}
+
+.sidebar-icon {
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .menu-toggle {
     position: fixed;
     right: 2rem;
     margin-top: 1rem
+}
+
+.blue {
+    color: #2196f3;
+}
+
+.brown {
+    color: #795548;
 }

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,700,0,0" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sidebar.css"/>
     <title>Sidebar Demo</title>
 </head>
@@ -16,13 +17,21 @@
             <div class="sidebar-brand">
                 <img class="sidebar-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png" alt="Logo">
                 <h5 class="sidebar-brand-text">Brand</h5>
-                <a href="#" class="link-dark sidebar-closer">
-                    <span class="material-symbols-rounded ">
-                        expand_circle_down
-                    </span>
+                <a href="#" class="sidebar-closer">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
                 </a>
             </div>
         </div>
+        <ul class="sidebar-menu">
+            <li class="sidebar-item">
+                <span class="sidebar-icon blue"><i class="fa-solid fa-home fa-fw"></i></span>
+                <span>Dashboard</span>
+            </li>
+            <li class="sidebar-item">
+                <span class="sidebar-icon brown"><i class="fa-solid fa-car-side fa-fw"></i></span>
+                </span>Cars</span>
+            </li>
+          </ul>
     </div>
 
     <a href="#" class="link-dark menu-toggle">
