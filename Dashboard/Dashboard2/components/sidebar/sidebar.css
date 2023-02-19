@@ -4,7 +4,7 @@
     --sidebar-width: 4rem;
     --sidebar-width-expanded: 16rem;
     --sidebar-logo-height: 4rem;
-    --border: 1px solid rgba(0, 0, 0, 0.06);
+    --border: 1px solid rgb(225, 225, 225);
     --sidebar-brand-horizontal-margin: 10px;
     --sidebar-brand-font: 'Nunito', sans-serif;
     --sidebar-brand-font-size: 1.5rem;
@@ -16,10 +16,9 @@
     width: 16rem;      
     width: var(--sidebar-width);
     height: 100vh;
-    border-right: var(--border);
+    border-right: 1px solid rgb(225, 225, 225);
     overflow-x: hidden;
     transition: all 300ms ease-in-out;
-    border-right: 1px solid rgb(225, 225, 225);
 }
 
 .sidebar-expanded {
