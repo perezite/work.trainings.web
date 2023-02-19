@@ -9,7 +9,7 @@
     width: 100%;
     height: var(--navbar-height);
     /* background-color: lightblue; */
-    border-bottom: var(--border)
+    border-bottom: var(--border);
 }
 
 .navbar-left {

@@ -1,0 +1,16 @@
+:root {
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    z-index: 10;    
+}
+
+.navbar {
+    margin-left: 4rem;
+}
