@@ -1,5 +1,6 @@
 :root {
     --bs-body-font-family: 'Poppins', sans-serif;
+    --sidebar-width: 4rem;
 }
 
 .page {
@@ -8,9 +9,9 @@
 }
 
 .sidebar {
-    z-index: 10;    
+    z-index: 999;    
 }
 
 .navbar {
-    margin-left: 4rem;
+    margin-left: var(--sidebar-width);
 }

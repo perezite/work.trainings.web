@@ -8,7 +8,6 @@
     align-items: center;
     width: 100%;
     height: var(--navbar-height);
-    /* background-color: lightblue; */
     border-bottom: var(--border);
 }
 
@@ -27,7 +26,7 @@
     margin-left: auto;
 }
 
-.menu-toggle {
+.navbar-toggle {
     padding-top: .37rem;
 }
 
