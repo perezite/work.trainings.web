@@ -1,4 +1,6 @@
 :root {
+    --bs-body-font-family: 'Poppins', sans-serif;
+    --bs-body-font-weight: 400;
     --sidebar-width: 4rem;
     --sidebar-width-expanded: 16rem;
     --sidebar-logo-height: 4rem;
