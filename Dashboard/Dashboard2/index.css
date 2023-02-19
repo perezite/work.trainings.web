@@ -9,17 +9,24 @@
     flex-direction: row;
 }
 
+main {
+    padding: 1.1rem;
+}
+
 .sidebar {
     z-index: 999;    
 }
 
-.navbar {
+.page-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     margin-left: var(--sidebar-width);
 }
 
 /* non-mobile screens */
 @media screen and (min-width: 576px) {
-    body.sidebar-expanded .navbar {
+    body.sidebar-expanded .page-right {
         margin-left: var(--sidebar-width-expanded);
     }
 }

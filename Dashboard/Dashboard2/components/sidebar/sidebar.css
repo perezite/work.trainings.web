@@ -97,12 +97,12 @@ body.sidebar-expanded .sidebar-brand {
     top: 1.4rem;
 }
 
-.sidebar-brown {
-    color: #795548;
+.sidebar-blue {
+    color: var(--bs-blue);
 }
 
-.sidebar-blue {
-    color: #2196f3;
+.sidebar-orange {
+    color: var(--bs-orange);
 }
 
 /* non-mobile screens */
