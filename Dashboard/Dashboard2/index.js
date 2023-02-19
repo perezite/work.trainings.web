@@ -1,10 +1,7 @@
-// const navbarToggle = document.querySelector('.navbar-toggle');
-// const sidebar = document.querySelector('.sidebar');
-// const sidebarCloser = document.querySelector('.sidebar-closer');
+const navbarToggle = document.querySelector('.navbar-toggle');
+const sidebarCloser = document.querySelector('.sidebar-closer');
 
-// const sidebarExpandedClass = 'sidebar-expanded';
+const sidebarExpandedClass = 'sidebar-expanded';
 
-// console.log('test');
-
-// navbarToggle.addEventListener('click', () => sidebar.classList.toggle(sidebarExpandedClass));
-// sidebarCloser.addEventListener('click', () => sidebar.classList.remove(sidebarExpandedClass));
+navbarToggle.addEventListener('click', () => document.body.classList.toggle(sidebarExpandedClass));
+sidebarCloser.addEventListener('click', () => document.body.classList.remove(sidebarExpandedClass));
