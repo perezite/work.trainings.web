@@ -1,0 +1,67 @@
+:root {
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
+
+.my-card {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 0.2rem;
+}
+
+.my-card-body {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+
+.my-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-card-icon {
+    font-size: 20px;
+    
+}
+
+.margin-auto {
+    margin: 0;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.my-card-title {
+    margin: 6;
+}
+
+.color-green {
+    color: #4caf50;
+}
+
+.background-light-green {
+    background-color: #4caf4f2f;
+}
+
+.color-purple {
+    color: #6f42c1;
+}
+
+.color-red {
+    color: #f44336;
+}
+
+.background-light-red {
+    background-color: #f443362a;
+}
+
+.test {
+    border-radius: 10em;
+    padding-inline: 10px;
+    padding-block: 3px;
+}
+
+.card {
+    height: 120px;;
+    min-height: 120px;
+}

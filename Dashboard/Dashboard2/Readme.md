@@ -11,3 +11,5 @@ https://getbootstrap.com/docs/5.3/examples/sidebars/
 https://getbootstrap.com/docs/5.0/examples/headers/
 https://www.youtube.com/watch?v=S0a7PEOi0do&ab_channel=CSSCODER
 https://www.youtube.com/watch?v=ILmLjXtUllE&ab_channel=ByteGrad
+https://getbootstrap.com/docs/5.3/components/placeholders/
+https://stackblitz.com/run?file=index.html
