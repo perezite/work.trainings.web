@@ -35,27 +35,27 @@
     margin: 6;
 }
 
-.color-green {
-    color: #4caf50;
+.green {
+    color: #198754;
 }
 
-.background-light-green {
-    background-color: #4caf4f2f;
-}
-
-.color-purple {
+.purple {
     color: #6f42c1;
 }
 
-.color-red {
-    color: #f44336;
+.red {
+    color: #dc3545;
+}
+
+.background-light-green {
+    background-color: #1987542a;
 }
 
 .background-light-red {
-    background-color: #f443362a;
+    background-color: #dc35462b;
 }
 
-.test {
+.card-text {
     border-radius: 10em;
     padding-inline: 10px;
     padding-block: 3px;
