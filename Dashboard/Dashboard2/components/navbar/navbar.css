@@ -27,9 +27,19 @@
 }
 
 .navbar-toggle {
-    padding-top: .37rem;
+    /* padding-top: .37rem; */
+    text-decoration: none;
+}
+
+.navbar-toggle-link {
+    font-size: 23px;
+    text-decoration: none;
 }
 
 .dropdown-menu {
     font-size: .9rem;
+}
+
+.test {
+    text-decoration: none;
 }
