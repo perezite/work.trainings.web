@@ -20,9 +20,13 @@
     align-items: center;
 }
 
-.my-card-icon {
+/* .my-card-icon {
     font-size: 20px;
-    
+} */
+
+.my-card-icon {
+    font-size: 34px;
+    padding-bottom: 2px;
 }
 
 .margin-auto {
@@ -47,12 +51,28 @@
     color: #dc3545;
 }
 
+.pink {
+    color: #a905b6;
+}
+
+.blue {
+    color: #00abfb;
+}
+
 .background-light-green {
     background-color: #1987542a;
 }
 
 .background-light-red {
     background-color: #dc35462b;
+}
+
+.background-light-pink {
+    background-color: #aa05b61c;;
+}
+
+.background-light-blue {
+    background-color: #00abfb1f;
 }
 
 .card-text {
