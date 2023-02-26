@@ -1,20 +1,6 @@
-:root {
-    --bs-body-font-family: 'Poppins', sans-serif;
-    --bs-body-font-weight: 400;
-    --sidebar-width: 4rem;
-    --sidebar-width-expanded: 16rem;
-    --sidebar-background-color: white;
-    --sidebar-logo-height: 4rem;
-    --border: 1px solid rgb(225, 225, 225);
-    --sidebar-brand-horizontal-margin: 10px;
-    --sidebar-brand-font: 'Nunito', sans-serif;
-    --sidebar-brand-font-size: 1.5rem;
-    --sidebar-brand-letter-spacinig: .15rem;
-}
-
 .sidebar {
     position: fixed;
-    width: 16rem;      
+    width: var(--sidebar-width-expanded);      
     width: var(--sidebar-width);
     height: 100vh;
     border-right: 1px solid rgb(225, 225, 225);
@@ -54,9 +40,9 @@ body.sidebar-expanded .sidebar-brand {
 .sidebar-brand-text {   
     margin: 0;
     margin-top: 2px;
-    font-family: var(--sidebar-brand-font);
-    font-size: var(--sidebar-brand-font-size);
-    letter-spacing: var(--sidebar-brand-letter-spacing);
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
     font-weight: 900; 
 }
 
@@ -106,14 +92,6 @@ body.sidebar-expanded .sidebar-brand {
     font-size: 20px;
     left: 18rem;
     top: 1.4rem;
-}
-
-.sidebar-blue {
-    color: var(--bs-blue);
-}
-
-.sidebar-orange {
-    color: var(--bs-orange);
 }
 
 /* non-mobile screens */
