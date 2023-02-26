@@ -1,5 +1,6 @@
-:root {
-    --bs-body-font-family: 'Poppins', sans-serif;
+.card {
+    height: 120px;
+    min-height: 120px;
 }
 
 .my-card {
@@ -20,64 +21,20 @@
     align-items: center;
 }
 
+.my-card-title {
+    margin: 6;
+}
+
 .my-card-icon {
     font-size: 30px;
     padding-bottom: 2px;
 }
 
-.margin-auto {
+.my-card-pill {
     margin: 0;
     margin-left: auto;
     margin-right: 10px;
-}
-
-.my-card-title {
-    margin: 6;
-}
-
-.green {
-    color: #198754;
-}
-
-.purple {
-    color: #6f42c1;
-}
-
-.red {
-    color: #dc3545;
-}
-
-.pink {
-    color: #a905b6;
-}
-
-.blue {
-    color: #00abfb;
-}
-
-.background-light-green {
-    background-color: #1987542a;
-}
-
-.background-light-red {
-    background-color: #dc35462b;
-}
-
-.background-light-pink {
-    background-color: #aa05b61c;;
-}
-
-.background-light-blue {
-    background-color: #00abfb1f;
-}
-
-.card-text {
     border-radius: 10em;
     padding-inline: 10px;
     padding-block: 3px;
-}
-
-.card {
-    height: 120px;;
-    min-height: 120px;
 }
