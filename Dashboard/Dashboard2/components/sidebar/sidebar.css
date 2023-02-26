@@ -84,7 +84,7 @@ body.sidebar-expanded .sidebar-brand {
     min-width: var(--sidebar-width);
     height: calc(var(--sidebar-width) - .5rem);
     font-size: 1.7rem;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
 }
 
 .sidebar-toggle {
