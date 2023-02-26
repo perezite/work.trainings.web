@@ -2,8 +2,7 @@
     --bs-body-font-family: 'Poppins', sans-serif;
 }
 
-/*  Colors 
-    (from https://tablericons.com) */
+/*  Colors (color schema from https://tablericons.com) */
 
 .green {
     color: #00b341;
@@ -33,10 +32,10 @@
     background-color: #ff292522;
 }
 
-.background-light-pink {
-    background-color: #aa05b61f;;
-}
-
 .background-light-blue {
     background-color: #00abfb24;
+}
+
+.background-light-pink {
+    background-color: #aa05b61f;;
 }
