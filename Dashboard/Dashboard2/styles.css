@@ -1,4 +1,5 @@
 :root {
+    font-size: .95em;;
     --bs-body-font-family: 'Poppins', sans-serif;
     --bs-body-font-weight: 400;
     --navbar-height: 4rem;
@@ -47,5 +48,5 @@
 }
 
 .background-light-pink {
-    background-color: #aa05b61f;;
+    background-color: #aa05b61f;
 }
