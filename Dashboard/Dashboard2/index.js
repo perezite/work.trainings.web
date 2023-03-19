@@ -8,6 +8,7 @@ const isMobile = () => window.matchMedia("screen and (max-width: 576px)").matche
 
 navbarToggle.addEventListener('click', () => document.body.classList.toggle(sidebarExpandedClass));
 sidebarCloser.addEventListener('click', () => document.body.classList.remove(sidebarExpandedClass));
+
 main.addEventListener('click', () => {
     if (isMobile())
         document.body.classList.remove(sidebarExpandedClass);
